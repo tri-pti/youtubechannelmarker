@@ -1,0 +1,13 @@
+
+{
+  "manifest_version": 3,
+  "name": "YT Sub Highlight",
+  "version": "0.1",
+  "description": "Highlights subscribed channels on YouTube home page",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
